@@ -1,0 +1,18 @@
+fastapi
+uvicorn
+streamlit
+
+langchain
+langgraph
+
+pydantic
+
+python-dotenv
+requests
+
+# LLM (choose one or both)
+openai
+google-generativeai
+
+# Storage (optional but recommended)
+sqlalchemy
