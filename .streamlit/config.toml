@@ -1,0 +1,10 @@
+[server]
+port = 8501
+headless = true
+runOnSave = true
+
+[logger]
+level = "info"
+
+[client]
+toolbarMode = "viewer"
