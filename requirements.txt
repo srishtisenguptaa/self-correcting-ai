@@ -1,18 +1,48 @@
+# -------------------------
+# Web Frameworks
+# -------------------------
 fastapi
-uvicorn
+uvicorn[standard]
 streamlit
 
+# -------------------------
+# LangChain Ecosystem (1.x)
+# -------------------------
 langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-google-genai
 langgraph
+langchain-text-splitters
+langchain-huggingface
 
-pydantic
-
-python-dotenv
-requests
-
-# LLM (choose one or both)
+# -------------------------
+# LLM Providers
+# -------------------------
 openai
 google-generativeai
+huggingface-hub
+sentence-transformers
 
-# Storage (optional but recommended)
+# -------------------------
+# Database / Storage
+# -------------------------
 sqlalchemy
+
+# Vector DB
+faiss-cpu
+
+# -------------------------
+# Utilities
+# -------------------------
+pydantic
+python-dotenv
+requests
+httpx
+
+# -------------------------
+# Optional but Recommended
+# -------------------------
+tiktoken
+orjson
